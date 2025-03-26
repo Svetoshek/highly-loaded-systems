@@ -1,8 +1,0 @@
-{% extends 'base.html' %}
-{% block content %}
-    <div class="container">
-        <h1>Dashboard</h1>
-        <p class="welcome-message">Добро пожаловать, {{ user.username }}!</p>
-        <a href="{% url 'account_logout' %}">Выход</a>
-    </div>
-{% endblock %}
