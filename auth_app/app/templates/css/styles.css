@@ -1,0 +1,144 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a8b, #ff6a88); /* Оранжево-розовый градиент */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Контейнер для форм и страниц */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Стили для форм */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 1em;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #d3d3d3;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b0b0b0;
+}
+
+/* Стили для ссылок на странице логина */
+.links {
+    margin-top: 15px;
+}
+
+/* Стили для dashboard и profile */
+.welcome-message {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Стили для "Remember Me" в одну строку */
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.remember-me label {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.remember-me input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Стили для правил пароля */
+.help-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.help-text ul {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+.help-text li {
+    margin-bottom: 5px;
+}
+
+/* Стили для сообщений */
+.messages {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.message {
+    background-color: #e6f0fa;
+    color: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: inline-block;
+}
